@@ -33,7 +33,7 @@ console.log(raiblocksAddress(new Uint8Array(32), 0));
 To use in the browser:
 
 ```
-<script src="webpack-address/dist/raiblocks-address.min.js"></script>
+<script src="raiblocks-address/dist/raiblocks-address.min.js"></script>
 ```
 
 Then use
