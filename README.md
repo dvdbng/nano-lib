@@ -1,7 +1,7 @@
 nano-lib
 ========
 
-Generate nano (formerly Raiblocks) addresses in node.js and in the browser
+Generate Nano (formerly Raiblocks) addresses in node.js and in the browser
 
 Usage
 =====
