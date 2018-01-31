@@ -46,6 +46,16 @@ console.log(nanoJS.generateAddress(new Uint8Array(32), 0));
 
 ```
 
+Security
+========
+
+**USE A GOOD ENTROPY SOURCE TO GENERATE THE SEEDS**. This library intentionally doesn't come
+with a CSPRNG to generate the seeds. To generate them, **please** use a good CSPRNG like the
+browser's `window.crypto.getRandomValues()` or node's `crypto.randomBytes()`.
+
+`Math.random()` Is not a CSPRNG and shouldn't be used to generate the seeds.
+
+
 TODO:
 ====
 
