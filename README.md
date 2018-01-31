@@ -55,3 +55,13 @@ In the future nano-lib will become a fully featured library to:
 - Generate blocks
 - Sign Blocks
 - Generate PoW
+
+Donations:
+==========
+
+Like it? Need a feature implemented? Help support the development!
+
+```
+xrb_3g185cma1kqoaxeosmnrr5y8z6gmaeh11zz3h5t1fcrkp9xwmyyg67upfwmx
+```
+Thanks!
