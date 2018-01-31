@@ -1,5 +1,5 @@
-nano.js
-=======
+nano-lib
+========
 
 Generate nano (formerly Raiblocks) addresses in node.js and in the browser
 
@@ -14,13 +14,13 @@ To use in node.js:
 
 First install:
 ```
-npm install --save nano.js
+npm install --save nano-lib
 
 ```
 
 Then use
 ```
-const nanoJS = require('nano.js');
+const nanoJS = require('nano-lib');
 console.log(nanoJS.generateAddress(new Uint8Array(32), 0));
 // {
 //   secret: '9f0e444c69f77a49bd0be89db92c38fe713e0963165cca12faf5712d7657120f',
@@ -33,7 +33,7 @@ console.log(nanoJS.generateAddress(new Uint8Array(32), 0));
 To use in the browser:
 
 ```
-<script src="nano.js/dist/nano.min.js"></script>
+<script src="nano-lib/dist/nano-lib.min.js"></script>
 ```
 
 Then use
@@ -46,10 +46,10 @@ console.log(nanoJS.generateAddress(new Uint8Array(32), 0));
 
 ```
 
-TODO
+TODO:
 ====
 
-In the future nano.js will become a fully-featured library to:
+In the future nano-lib will become a fully featured library to:
 
 - Interact (via RPC with the nano daemon)
 - Generate blocks
