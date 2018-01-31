@@ -1,8 +1,8 @@
 module.exports = {
   entry: './index.js',
   output: {
-    library: 'raiblocksAddress',
-    filename: 'dist/raiblocks-address.min.js'
+    library: 'nanoJS',
+    filename: 'dist/nano.min.js'
   },
   node: { Buffer: false }
 };

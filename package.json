@@ -1,13 +1,14 @@
 {
-  "name": "raiblocks-address",
-  "version": "1.0.0",
-  "description": "Generate Raiblocks addressess in the browser and node.js",
+  "name": "nano",
+  "version": "0.1",
+  "description": "Generate Nano (Raiblocks) addressess in the browser and node.js",
   "main": "index.js",
   "scripts": {
     "build": "webpack -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "nano",
     "raiblocks",
     "ed25519",
     "blake2b",

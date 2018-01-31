@@ -38,9 +38,13 @@ function publicKeyToAddress (publicKey) {
   );
 }
 
-module.exports = function generateAddress (seed, accountNumber) {
+function generateAddress (seed, accountNumber) {
   const secret = seedToSecretKey(seed, accountNumber);
   const address = publicKeyToAddress(secretKeyToKeyPair(secret).publicKey);
 
   return { secret: toHex(secret), address: address };
+};
+
+module.exports = {
+  generateAddress: generateAddress
 };
